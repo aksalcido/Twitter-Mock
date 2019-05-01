@@ -2,7 +2,7 @@
 
 **Twitter Mock** is a basic twitter app to read your tweets.
 
-Time spent: **3** hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
@@ -23,5 +23,18 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+### User sees app icon in home screen and styled launch screen
+<img src='App-icon-and-start-up.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+###  User can log in
+<img src='login.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+### User can log out
+<img src='logout.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+### User stays logged in across restarts
+<img src='stay-logged-in.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+### User can view tweets with the user profile picture, username, and tweet text + User can Pull to Refresh
+<img src='scroll-and-refresh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
