@@ -22,6 +22,9 @@ class HomeTableViewController: UITableViewController {
         
         myRefreshControl.addTarget(self, action: #selector(loadTweets), for: .valueChanged)
         tableView.refreshControl = myRefreshControl
+        
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.estimatedRowHeight = 150
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -44,7 +47,9 @@ class HomeTableViewController: UITableViewController {
                     // Create a Tweet Structure w/ Username, TweetContent and Profile Image
                     let tweet = Tweet(username: user["name"] as! String,
                                       tweetContent: tweet["text"] as! String,
-                                      profileImage: URL(string: (user["profile_image_url_https"] as? String)!)!)
+                                      profileImage: URL(string: (user["profile_image_url_https"] as? String)!)!,
+                                      favorited: tweet["favorited"] as! Bool,
+                                      id: tweet["id"] as! Int)
             
                     self.tweetArray.append(tweet)
                 }
@@ -82,6 +87,8 @@ class HomeTableViewController: UITableViewController {
             cell.profileImageView.image = UIImage(data: imageData)
         }
         
+        cell.setFavorite(tweetArray[indexPath.row].favorited)
+        cell.tweetId = (tweetArray[indexPath.row].id)
     
         return cell
     }

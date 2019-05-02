@@ -12,5 +12,7 @@ struct Tweet {
     let username: String
     let tweetContent: String
     let profileImage: URL
+    let favorited: Bool
+    let id: Int
     
 }
