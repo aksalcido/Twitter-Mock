@@ -25,9 +25,14 @@ The following **bonus** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+### User can compose a tweet
+<img src='/gifs/tweet.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<img src='none.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+### User can favorite a tweet
+<img src='/gifs/favorite.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+### User can retweet a tweet
+<img src='/gifs/retweet.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 # Twitter - Part I
 Time spent: **4** hours spent in total
