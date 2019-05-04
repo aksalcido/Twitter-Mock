@@ -14,5 +14,6 @@ struct Tweet {
     let profileImage: URL
     let favorited: Bool
     let id: Int
+    let retweeted: Bool
     
 }

@@ -73,20 +73,20 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ogx-RE-VCT">
-                                            <rect key="frame" x="10" y="0.0" width="65" height="65"/>
+                                            <rect key="frame" x="10" y="5" width="65" height="65"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="65" id="BNi-2i-37H"/>
                                                 <constraint firstAttribute="height" constant="65" id="rJf-Qt-kOf"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Tweet Author" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qy-UT-MZf">
-                                            <rect key="frame" x="83" y="0.0" width="117" height="22"/>
+                                            <rect key="frame" x="83" y="5" width="117" height="22"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYF-cd-vOo" userLabel="Tweet Content">
-                                            <rect key="frame" x="83" y="26" width="276" height="63"/>
+                                            <rect key="frame" x="83" y="31" width="276" height="58"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -116,7 +116,7 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="qzp-Bq-sTc" firstAttribute="leading" secondItem="Ssj-Pc-QuG" secondAttribute="trailing" constant="10" id="134-2G-o6g"/>
-                                        <constraint firstItem="7qy-UT-MZf" firstAttribute="top" secondItem="59U-2g-Mdt" secondAttribute="top" id="AN6-nB-dup"/>
+                                        <constraint firstItem="7qy-UT-MZf" firstAttribute="top" secondItem="59U-2g-Mdt" secondAttribute="top" constant="5" id="AN6-nB-dup"/>
                                         <constraint firstItem="fYF-cd-vOo" firstAttribute="leading" secondItem="Ogx-RE-VCT" secondAttribute="trailing" constant="8" id="Ajy-jI-YLW"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="qzp-Bq-sTc" secondAttribute="bottom" constant="10" id="Ms5-p7-Zan"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="qzp-Bq-sTc" secondAttribute="trailing" constant="10" id="PJm-0e-603"/>
@@ -126,7 +126,7 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="Ssj-Pc-QuG" secondAttribute="bottom" constant="10" id="k5a-8G-iEM"/>
                                         <constraint firstItem="fYF-cd-vOo" firstAttribute="top" secondItem="7qy-UT-MZf" secondAttribute="bottom" constant="4" id="lUA-H7-KnW"/>
                                         <constraint firstItem="qzp-Bq-sTc" firstAttribute="top" secondItem="fYF-cd-vOo" secondAttribute="bottom" constant="10" id="lUy-qV-kiU"/>
-                                        <constraint firstItem="Ogx-RE-VCT" firstAttribute="top" secondItem="59U-2g-Mdt" secondAttribute="top" id="xsw-b2-0GE"/>
+                                        <constraint firstItem="Ogx-RE-VCT" firstAttribute="top" secondItem="59U-2g-Mdt" secondAttribute="top" constant="5" id="xsw-b2-0GE"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>

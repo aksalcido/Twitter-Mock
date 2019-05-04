@@ -49,7 +49,8 @@ class HomeTableViewController: UITableViewController {
                                       tweetContent: tweet["text"] as! String,
                                       profileImage: URL(string: (user["profile_image_url_https"] as? String)!)!,
                                       favorited: tweet["favorited"] as! Bool,
-                                      id: tweet["id"] as! Int)
+                                      id: tweet["id"] as! Int,
+                                      retweeted: tweet["retweeted"] as! Bool)
             
                     self.tweetArray.append(tweet)
                 }
@@ -88,8 +89,9 @@ class HomeTableViewController: UITableViewController {
         }
         
         cell.setFavorite(tweetArray[indexPath.row].favorited)
-        cell.tweetId = (tweetArray[indexPath.row].id)
-    
+        cell.setRetweeted(tweetArray[indexPath.row].retweeted)
+        cell.tweetId = tweetArray[indexPath.row].id
+        
         return cell
     }
     
