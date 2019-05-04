@@ -52,17 +52,17 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 ### User sees app icon in home screen and styled launch screen
-<img src='App-icon-and-start-up.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='/gifs/App-icon-and-start-up.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ###  User can log in
-<img src='login.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='/gifs/login.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### User can log out
-<img src='logout.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='/gifs/logout.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### User stays logged in across restarts
-<img src='stay-logged-in.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='/gifs/stay-logged-in.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### User can view tweets with the user profile picture, username, and tweet text + User can Pull to Refresh
-<img src='scroll-and-refresh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='/gifs/scroll-and-refresh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
